@@ -24,9 +24,9 @@ Extract the tar.gz file and make sure the script 'rg' is in your PATH before run
 Install this perl module. If you don't have admin privileges, we have provided an easy installation script (installParallelForkManager.bash) to install this perl module locally. Just run the script once using following command and you should be good to go:
 bash installParallelForkManager.bash
 
-4. Database files. We have provided database files for hg19 and hg38 genomes. [Click here](https://zenodo.org/record/5663811/files/hg19_data.tgz) to download hg19 database files. [Click here](https://zenodo.org/record/5663811/files/hg38_data.tgz) to download hg38 database files.
+4. Database files. We have provided database files for hg19 and hg38 genomes. [Click here](https://zenodo.org/record/5663811/files/hg19_data.tgz) to download hg19 database files (file size 116.2 MB). [Click here](https://zenodo.org/record/5663811/files/hg38_data.tgz) to download hg38 database files (file size 130.7 MB).
 
 **Running the software:**
 Running the following command will provide all the options to run the software:
 perl RTpred.pl -h
-Additionally, test fastq files (single and paired), small size database files from hg19 (for fast testing purpose) are also provided along with the expected result files at https://zenodo.org/record/5663811/files/test_files.tgz .
+Additionally, test fastq files (single and paired), small size database files from hg19 (for fast testing purpose) are also provided along with the expected result files. [Click here](https://zenodo.org/record/5663811/files/test_files.tgz) to download test files (file size 3.8 KB).
