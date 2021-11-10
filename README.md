@@ -20,7 +20,7 @@ You need to use the above command every time you open a new terminal. In order t
 Install this perl module. If you don't have admin privileges, we have provided an easy installation script (installParallelForkManager.bash) to install this perl module locally. Just run the script once using following command and you should be good to go:
 bash installParallelForkManager.bash
 
-4. database files. 
+4. Database files. We have provided database files for hg19 and hg38 genomes. You can download hg19 database files from https://zenodo.org/record/5663811/files/hg19_data.tgz and hg38 database files from https://zenodo.org/record/5663811/files/hg38_data.tgz
 
 **Running the software:**
 Running the following command will provide all the options to run the software:
