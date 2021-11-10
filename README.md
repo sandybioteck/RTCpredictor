@@ -1,15 +1,13 @@
 # RTpred
 RTpred is a software tool for the prediction of read-through chimeric RNAs from RNA-Seq data.
 
-System Requirements:
-
+**System Requirements:**
 Linux or Mac OS with at least 5GB RAM. Should work on Windows OS via Cygwin but didn't tested on it.
 
-Installation Instructions:
-
+**Installation Instructions:**
 This software requires 4 dependencies which needs to be installed prior to running it.
 
-Dependencies:
+**Dependencies:**
 1. ripgrep (version >=12.1.1)
 Download pre-installed binary file of ripgrep software from https://github.com/BurntSushi/ripgrep. For MacOS, an easy way to install ripgrep is by using brew. (command: brew install ripgrep)
 Extract the tar.gz file and make sure the script 'rg' is in your PATH before running RTpred software. Let's assume the full path of 'rg' binary script is /home/username/software/ripgrep/rg, then you can add it to the PATH by using following command:
@@ -24,7 +22,7 @@ bash installParallelForkManager.bash
 
 4. database files. 
 
-Running the software:
+**Running the software:**
 Running the following command will provide all the options to run the software:
 perl RTpred.pl -h
 Additionally, test fastq files (single and paired), small size database and exon files from hg19 (for fast testing purpose) are also provided along with the expected result files.
