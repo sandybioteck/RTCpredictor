@@ -29,5 +29,7 @@ Install this perl module. If you don't have admin privileges, we have provided a
 
 **Running the software:**
 Running the following command will provide all the options to run the software:
+
 perl RTpred.pl -h
+
 Additionally, test fastq files (single and paired), small size database files from hg19 (for fast testing purpose) are also provided along with the expected result files. [Click here](https://zenodo.org/record/5663811/files/test_files.tgz) to download test files (file size 3.8 KB).
