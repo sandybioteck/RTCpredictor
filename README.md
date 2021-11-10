@@ -6,6 +6,7 @@ Linux or Mac OS with at least 5GB RAM. Should work on Windows OS via Cygwin but 
 
 Installation Instructions:
 This software requires 4 dependencies which needs to be installed prior to running it.
+
 Dependencies:
 1. ripgrep (version >=12.1.1)
 Download pre-installed binary file of ripgrep software from https://github.com/BurntSushi/ripgrep. For MacOS, an easy way to install ripgrep is by using brew. (command: brew install ripgrep)
