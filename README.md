@@ -5,7 +5,7 @@ RTpred is a software tool for the prediction of read-through chimeric RNAs from 
 Linux or Mac OS with at least 5GB RAM. Should work on Windows OS via Cygwin but didn't tested on it.
 
 **Installation Instructions:**
-This software requires 4 dependencies which needs to be installed prior to running it.
+This software requires 4 dependencies which needs to be installed/fulfilled prior to running it.
 
 **Dependencies:**
 1. ripgrep (version >=12.1.1)
