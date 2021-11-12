@@ -15,7 +15,7 @@ This software requires 4 dependencies which needs to be installed/fulfilled prio
 <br>**MacOS users**: An easy way to install ripgrep is by using brew. (command: brew install ripgrep)
 
 <br>**2. perl (>=v5.16.3).**
-<br>perl is by default available in linux and macOS systems. RTpred has not been tested using perl versions <v5.16.3 but it is expected to run on older versions of perl as well.
+<br>perl is by default available in linux and macOS systems and needs to be installed in Cygwin in windows OS. RTpred has not been tested using perl versions <v5.16.3 but it is expected to run on older versions of perl as well.
 
 <br>**3. Parallel::ForkManager (version >=2.02)**
 <br>Install this perl module. If you don't have admin privileges, we have provided an easy installation script (installParallelForkManager.bash) to install this perl module locally. Just run the script once using following command and you should be good to go:
