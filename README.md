@@ -27,4 +27,4 @@ This software requires 4 dependencies which needs to be installed/fulfilled prio
 **Running the software:**
 <br>Running the following command will provide all the options to run the software:
 <br><br>perl RTpred.pl -h
-<br>Additionally, test fastq files (single and paired), small size database files from hg19 (for fast testing purpose) are also provided along with the expected result files. [Click here](https://zenodo.org/record/5663811/files/test_files.tgz) to download test files (file size 3.8 KB).
+<br><br>Additionally, test fastq files (single and paired), small size database files from hg19 (for fast testing purpose) are also provided along with the expected result files. [Click here](https://zenodo.org/record/5663811/files/test_files.tgz) to download test files (file size 3.8 KB).
