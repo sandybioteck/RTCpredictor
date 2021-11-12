@@ -2,21 +2,20 @@
 RTpred is a software tool for the prediction of read-through chimeric RNAs from RNA-Seq data.
 
 **System Requirements:**
-Linux or Mac OS with at least 5GB RAM. Should work on Windows OS via Cygwin but didn't tested on it.
+Linux or Mac OS with at least 5GB RAM. Also work on Windows OS via Cygwin.
 
 **Installation Instructions:**
 This software requires 4 dependencies which needs to be installed/fulfilled prior to running it.
 
 **Dependencies:**
-1. ripgrep (version >=12.1.1)
-Download pre-installed binary file of ripgrep software from https://github.com/BurntSushi/ripgrep.
+**1. ripgrep (version >=12.1.1)**
+<br>**Linux users**: Download pre-installed binary file of ripgrep software from https://github.com/BurntSushi/ripgrep.
 Extract the tar.gz file and make sure the script 'rg' is in your PATH before running RTpred software. Let's assume the full path of 'rg' binary script is /home/username/software/ripgrep/rg, then you can add it to the PATH by using following command:
+<br>export PATH=/home/username/software/ripgrep:$PATH
+<br>You need to use the above command every time you open a new terminal. In order to avoid it, add the above line to your ~/.bashrc file.
+<br>**MacOS users**: An easy way to install ripgrep is by using brew. (command: brew install ripgrep)
+<br>**Windows users**: 
 
-   export PATH=/home/username/software/ripgrep:$PATH
-
-   You need to use the above command every time you open a new terminal. In order to avoid it, add the above line to your ~/.bashrc file.
-
-   For MacOS, an easy way to install ripgrep is by using brew. (command: brew install ripgrep)
 
 2. perl (>=v5.16.3). perl is by default available in linux and macOS systems. RTpred has not been tested using perl versions <v5.16.3 but it is expected to run on older versions of perl as well.
 
