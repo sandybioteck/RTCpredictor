@@ -9,10 +9,9 @@ This software requires 4 dependencies which needs to be installed/fulfilled prio
 
 **Dependencies:**
 <br>**1. ripgrep (version >=12.1.1)**
-<br>**Linux/Windows users**: Download pre-installed binary file of ripgrep software from https://github.com/BurntSushi/ripgrep as per your operating system. Extract the compressed file and make sure the script 'rg' is in your PATH before running RTpred software. Let's assume the full path of 'rg' binary script is /home/username/software/ripgrep/rg, then you can add it to the PATH by using following command:
+<br>Download pre-installed binary file of ripgrep software from https://github.com/BurntSushi/ripgrep as per your operating system (Linux/Windows/MacOS). Extract the compressed file and make sure the script 'rg' is in your PATH before running RTpred software. Let's assume the full path of 'rg' binary script is /home/username/software/ripgrep/rg, then you can add it to the PATH by using following command:
 <br>export PATH=/home/username/software/ripgrep:$PATH
-<br>You need to use the above command every time you open a new terminal. In order to avoid it, add the above line to your ~/.bashrc file.
-<br>**MacOS users**: An easy way to install ripgrep is by using brew. (command: brew install ripgrep)
+<br>You need to use the above command every time you open a new terminal. In order to avoid it, add the above line to your ~/.bashrc file. An easy way to install ripgrep on MacOS is by using brew (command: brew install ripgrep) and on ubuntu >=18.10 (Linux) is by using apt-get (command: apt-get install ripgrep)
 
 <br>**2. perl (>=v5.16.3).**
 <br>perl is by default available in linux and macOS systems and needs to be installed in Cygwin in windows OS. RTpred has not been tested using perl versions <v5.16.3 but it is expected to run on older versions of perl as well.
