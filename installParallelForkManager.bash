@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NAME='RTpred'
+NAME='RTCpredictor'
 DIR=~/.$NAME
 if [ -d $DIR ]
 then
