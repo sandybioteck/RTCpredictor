@@ -21,9 +21,9 @@ This software requires 4 dependencies which needs to be installed/fulfilled prio
 <br>bash installParallelForkManager.bash
 
 <br>**4. Database files.**
-<br>We have provided database files for hg19 and hg38 genomes. [Click here](https://zenodo.org/record/5663811/files/hg19_data.tgz) to download hg19 database files (file size 116.2 MB). [Click here](https://zenodo.org/record/5663811/files/hg38_data.tgz) to download hg38 database files (file size 130.7 MB).
+<br>We have provided database files for hg19 and hg38 genomes. [Click here](https://zenodo.org/record/6407111/files/hg19_data.tgz) to download hg19 database files (file size 116.2 MB). [Click here](https://zenodo.org/record/6407111/files/hg38_data.tgz) to download hg38 database files (file size 130.7 MB).
 
 **Running the software:**
 <br>Running the following command will provide all the options to run the software:
 <br><br>perl RTCpredictor.pl -h
-<br><br>Additionally, test fastq files (single and paired), small size database files from hg19 (for fast testing purpose) are also provided along with the expected result files. [Click here](https://zenodo.org/record/5663811/files/test_files.tgz) to download test files (file size 3.8 KB).
+<br><br>Additionally, test fastq files (single and paired), small size database files from hg19 (for fast testing purpose) are also provided along with the expected result files. [Click here](https://zenodo.org/record/6407111/files/test_files.tgz) to download test files (file size 3.8 KB).
