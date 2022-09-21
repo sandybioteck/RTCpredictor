@@ -56,4 +56,5 @@ This software requires 4 dependencies which needs to be installed/fulfilled prio
 <br>**(vii)** Now expand section 'PARALOGUES:' by clicking on '+' sign and select 'Mouse paralogue gene stable ID' checkbox.
 <br>**(viii)** On the top left side of the web page, click on 'Results'. In the resulting page, when asked for 'Export all results to', select 'File' and 'TSV' in the dropdown menu and select 'Unique results only' checkbox.
 <br>**(ix)** Now click on 'Go'. A file named 'mart_export.txt' will be downloaded on your computer. Rename this file to 'paralogs.tsv'
-<br>**(e) genome fasta file named 'genome.fa'**: 
+<br>**(e) genome fasta file named 'genome.fa'**: Genome fasta file needs to be downloaded from ensembl. For hg38 genome, the file can be downloaded from http://ftp.ensembl.org/pub/release-105/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz. After downloading, rename this file as 'genome.fa'. Moreover, the file needs to be processed in such a way that it's header should only have chromosome number and therefore the extra information in the header ( like 'dna:chromosome...') should be deleted. This can be done by running following command in the terminal
+<br>perl -pi -e 's/dna:.+\n/\n/g' genome.fa
