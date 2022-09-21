@@ -38,5 +38,11 @@ This software requires 4 dependencies which needs to be installed/fulfilled prio
 <br>Click on BioMart on the top menu
 <br>Click on dropdown menu 'CHOOSE DATABASE'. Select 'Ensembl Genes 105'
 <br>Click on dropdown menu 'CHOOSE DATASET'. Select 'Human genes (GRCh38.p13)'
-<br>On the left side menu, click on 'Attributes'. Among the options appearing on the top in bold, select 'Structures'. Now expand both sections 'GENE:' and 'EXON:' by clicking on '+' sign. Unselect all the checkboxes in both sections. Now select following checkboxes from section 'GENE:' in the same order as mentioned here: (1) 'Chromosome/scaffold name', (2) 'Strand', (3) 'Gene stable ID', (4) 'Gene name', (5) 'Gene start (bp)', (6) 'Gene end (bp)', (7) 'Transcript stable ID', (8) 'Transcript start (bp)', (9) 'Transcript end (bp)'. Now select following checkboxes from section 'EXON:' in the same order as mentioned here: (10) 'Exon stable ID', (11) 'Exon region start (bp)', (12) 'Exon region end (bp)'. Please note that the order of selection of the checkboxes is very important. Please follow the order from number 1 to 12.
-On the top left side of the web page, click on 'Results'. In the resulting page, when asked for 'Export all results to', select 'File' and 'TSV' in the dropdown menu and select 'Unique results only' checkbox. Now click on 'Go'. A file named 'mart_export.txt' will be downloaded on your computer. Rename this file to 'genes_transcripts_exons.tsv'
+<br>On the left side menu, click on 'Attributes'. Among the options appearing on the top in bold, select 'Structures'.
+<br>Now expand both sections 'GENE:' and 'EXON:' by clicking on '+' sign. Unselect all the checkboxes in both sections.
+<br>Now select following checkboxes from section 'GENE:' in the same order as mentioned here: (1) 'Chromosome/scaffold name', (2) 'Strand', (3) 'Gene stable ID', (4) 'Gene name', (5) 'Gene start (bp)', (6) 'Gene end (bp)', (7) 'Transcript stable ID', (8) 'Transcript start (bp)', (9) 'Transcript end (bp)'.
+<br>Now select following checkboxes from section 'EXON:' in the same order as mentioned here: (10) 'Exon stable ID', (11) 'Exon region start (bp)', (12) 'Exon region end (bp)'.
+<br>Please note that the order of selection of the checkboxes is very important. Please follow the order from number 1 to 12.
+<br>On the top left side of the web page, click on 'Results'. In the resulting page, when asked for 'Export all results to', select 'File' and 'TSV' in the dropdown menu and select 'Unique results only' checkbox.
+<br>Now click on 'Go'. A file named 'mart_export.txt' will be downloaded on your computer.
+<br>Rename this file to 'genes_transcripts_exons.tsv'
