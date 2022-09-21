@@ -56,3 +56,4 @@ This software requires 4 dependencies which needs to be installed/fulfilled prio
 <br>**(vii)** Now expand section 'PARALOGUES:' by clicking on '+' sign and select 'Mouse paralogue gene stable ID' checkbox.
 <br>**(viii)** On the top left side of the web page, click on 'Results'. In the resulting page, when asked for 'Export all results to', select 'File' and 'TSV' in the dropdown menu and select 'Unique results only' checkbox.
 <br>**(ix)** Now click on 'Go'. A file named 'mart_export.txt' will be downloaded on your computer. Rename this file to 'paralogs.tsv'
+<br>**(e) genome fasta file named 'genome.fa'**: 
