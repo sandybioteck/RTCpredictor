@@ -66,4 +66,4 @@ This software requires 4 dependencies which needs to be installed/fulfilled prio
 <br>**Running the script :**
 <br>Running the following command will provide all the options to run the script:
 <br>perl make_RTCpredictor_db.pl -h
-<br>The output of the above command will be 2 database files named 'database.tsv' and 'exons.tsv'
+<br>The output of the above command will be 2 database files named 'database.tsv' and 'exons.tsv' which needs to be given as input file to run 'RTCpredictor.pl' script for predicting read-through chimeric RNAs.
