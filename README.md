@@ -32,7 +32,7 @@ This software requires 4 dependencies which needs to be installed/fulfilled prio
 <br>perl script 'make_RTCpredictor_db.pl' can be used to make the database files for any genome of interest. However, this script has some dependencies which needs to be installed/fulfilled prior to running it. Following are the dependencies of the script:
 <br>**(a) blastn (version 2.7.1+ or later)**: pre-installed binary file of blastn compatible with any operating system (Linux/Windows/MacOS) can be downloaded from https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
 <br>**(b) bedtools (version 2.27.1 or later)**: pre-installed binary file of bedtools compatible with any operating system (Linux/Windows/MacOS) can be downloaded from https://github.com/arq5x/bedtools2
-<br>**(c) annotation file named 'genes_transcripts_exons.tsv'**: Detailed steps for making this file is given below:
+<br>**(c) annotation file named 'genes_transcripts_exons.tsv'**: Detailed steps for making this file for hg38 genome as an example, is given below. The same steps can be followed for any other genome of interest.
 <br>**(i)** Go to Ensembl website http://useast.ensembl.org/index.html
 <br>**(ii)** Start a new BioMart instance by clicking on 'New' on the top left side of the webpage.
 <br>**(iii)** Click on BioMart on the top menu
@@ -46,3 +46,5 @@ This software requires 4 dependencies which needs to be installed/fulfilled prio
 <br>**(xi)** On the top left side of the web page, click on 'Results'. In the resulting page, when asked for 'Export all results to', select 'File' and 'TSV' in the dropdown menu and select 'Unique results only' checkbox.
 <br>**(xii)** Now click on 'Go'. A file named 'mart_export.txt' will be downloaded on your computer.
 <br>**(xiii)** Rename this file to 'genes_transcripts_exons.tsv'
+<br>**(d) paralog file named 'paralogs.tsv'**: Detailed steps for making this file for hg38 genome as an example, is given below. The same steps can be followed for any other genome of interest.
+<br>**(i)**
