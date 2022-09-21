@@ -63,6 +63,6 @@ This software requires 4 dependencies which needs to be installed/fulfilled prio
 <br>sort -k1,1 -k2,2n tmp_dbSNP.bed > dbSNP.bed
 <br>**(g) (Optional) VCF file for the genome of interest**. For hg38 genome, the file can be downloaded from https://ftp.ncbi.nih.gov/snp/organisms/human_9606_b151_GRCh38p7/VCF/00-All.vcf.gz. Please unzip the file using following command on the terminal
 <br>gunzip 00-All.vcf.gz
-**Running the script :**
+<br>**Running the script :**
 <br>Running the following command will provide all the options to run the script:
-<br><br>perl make_RTCpredictor_db.pl -h
+<br>perl make_RTCpredictor_db.pl -h
