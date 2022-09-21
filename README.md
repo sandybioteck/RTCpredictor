@@ -33,16 +33,16 @@ This software requires 4 dependencies which needs to be installed/fulfilled prio
 <br>**(a) blastn (version 2.7.1+ or later)**: pre-installed binary file of blastn compatible with any operating system (Linux/Windows/MacOS) can be downloaded from https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
 <br>**(b) bedtools (version 2.27.1 or later)**: pre-installed binary file of bedtools compatible with any operating system (Linux/Windows/MacOS) can be downloaded from https://github.com/arq5x/bedtools2
 <br>**(c) annotation file named 'genes_transcripts_exons.tsv'**: Detailed steps for making this file is given below:
-<br>Go to Ensembl website http://useast.ensembl.org/index.html
-<br>Start a new BioMart instance by clicking on 'New' on the top left side of the webpage.
-<br>Click on BioMart on the top menu
-<br>Click on dropdown menu 'CHOOSE DATABASE'. Select 'Ensembl Genes 105'
-<br>Click on dropdown menu 'CHOOSE DATASET'. Select 'Human genes (GRCh38.p13)'
-<br>On the left side menu, click on 'Attributes'. Among the options appearing on the top in bold, select 'Structures'.
-<br>Now expand both sections 'GENE:' and 'EXON:' by clicking on '+' sign. Unselect all the checkboxes in both sections.
-<br>Now select following checkboxes from section 'GENE:' in the same order as mentioned here: (1) 'Chromosome/scaffold name', (2) 'Strand', (3) 'Gene stable ID', (4) 'Gene name', (5) 'Gene start (bp)', (6) 'Gene end (bp)', (7) 'Transcript stable ID', (8) 'Transcript start (bp)', (9) 'Transcript end (bp)'.
-<br>Now select following checkboxes from section 'EXON:' in the same order as mentioned here: (10) 'Exon stable ID', (11) 'Exon region start (bp)', (12) 'Exon region end (bp)'.
-<br>Please note that the order of selection of the checkboxes is very important. Please follow the order from number 1 to 12.
-<br>On the top left side of the web page, click on 'Results'. In the resulting page, when asked for 'Export all results to', select 'File' and 'TSV' in the dropdown menu and select 'Unique results only' checkbox.
-<br>Now click on 'Go'. A file named 'mart_export.txt' will be downloaded on your computer.
-<br>Rename this file to 'genes_transcripts_exons.tsv'
+<br>**(i)** Go to Ensembl website http://useast.ensembl.org/index.html
+<br>**(ii)** Start a new BioMart instance by clicking on 'New' on the top left side of the webpage.
+<br>**(iii)** Click on BioMart on the top menu
+<br>**(iv)** Click on dropdown menu 'CHOOSE DATABASE'. Select 'Ensembl Genes 105'
+<br>**(v)** Click on dropdown menu 'CHOOSE DATASET'. Select 'Human genes (GRCh38.p13)'
+<br>**(vi)** On the left side menu, click on 'Attributes'. Among the options appearing on the top in bold, select 'Structures'.
+<br>**(vii)** Now expand both sections 'GENE:' and 'EXON:' by clicking on '+' sign. Unselect all the checkboxes in both sections.
+<br>**(viii)** Now select following checkboxes from section 'GENE:' in the same order as mentioned here: (1) 'Chromosome/scaffold name', (2) 'Strand', (3) 'Gene stable ID', (4) 'Gene name', (5) 'Gene start (bp)', (6) 'Gene end (bp)', (7) 'Transcript stable ID', (8) 'Transcript start (bp)', (9) 'Transcript end (bp)'.
+<br>**(ix)** Now select following checkboxes from section 'EXON:' in the same order as mentioned here: (10) 'Exon stable ID', (11) 'Exon region start (bp)', (12) 'Exon region end (bp)'.
+<br>**(x)** Please note that the order of selection of the checkboxes is very important. Please follow the order from number 1 to 12.
+<br>**(xi)** On the top left side of the web page, click on 'Results'. In the resulting page, when asked for 'Export all results to', select 'File' and 'TSV' in the dropdown menu and select 'Unique results only' checkbox.
+<br>**(xii)** Now click on 'Go'. A file named 'mart_export.txt' will be downloaded on your computer.
+<br>**(xiii)** Rename this file to 'genes_transcripts_exons.tsv'
