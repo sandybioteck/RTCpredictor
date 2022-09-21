@@ -28,5 +28,6 @@ This software requires 4 dependencies which needs to be installed/fulfilled prio
 <br><br>perl RTCpredictor.pl -h
 <br><br>Additionally, test fastq files (single and paired), small size database files from hg19 (for fast testing purpose) are also provided along with the expected result files. [Click here](https://zenodo.org/record/6407111/files/test_files.tgz) to download test files (file size 3.8 KB).
 
-**Making database files for genome of interest**
-<br>perl script make_RTCpredictor_db.pl can be used to make the database files for any genome of interest. However, this script has some dependencies which needs to be installed/fulfilled prior to running it. Following are the dependencies of the script:
+**Making database files for any genome of interest**
+<br>perl script 'make_RTCpredictor_db.pl' can be used to make the database files for any genome of interest. However, this script has some dependencies which needs to be installed/fulfilled prior to running it. Following are the dependencies of the script:
+<br>**(a) blastn (version 2.7.1+ or later)**: pre-installed binary file of blastn compatible with any operating system (Linux/Windows/MacOS) can be downloaded from https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
