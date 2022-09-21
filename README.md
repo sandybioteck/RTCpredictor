@@ -21,7 +21,7 @@ This software requires 4 dependencies which needs to be installed/fulfilled prio
 <br>bash installParallelForkManager.bash
 
 <br>**4. Database files.**
-<br>We have provided database files for hg19 and hg38 genomes. [Click here](https://zenodo.org/record/6407111/files/hg19_data.tgz) to download hg19 database files (file size 116.2 MB). [Click here](https://zenodo.org/record/6407111/files/hg38_data.tgz) to download hg38 database files (file size 130.7 MB).
+<br>We have provided database files for hg19 and hg38 genomes. [Click here](https://zenodo.org/record/6407111/files/hg19_data.tgz) to download hg19 database files (file size ~110 MB). [Click here](https://zenodo.org/record/6407111/files/hg38_data.tgz) to download hg38 database files (file size ~135 MB).
 
 **Running the software:**
 <br>Running the following command will provide all the options to run the software:
