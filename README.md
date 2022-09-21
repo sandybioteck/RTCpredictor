@@ -27,3 +27,6 @@ This software requires 4 dependencies which needs to be installed/fulfilled prio
 <br>Running the following command will provide all the options to run the software:
 <br><br>perl RTCpredictor.pl -h
 <br><br>Additionally, test fastq files (single and paired), small size database files from hg19 (for fast testing purpose) are also provided along with the expected result files. [Click here](https://zenodo.org/record/6407111/files/test_files.tgz) to download test files (file size 3.8 KB).
+
+**Making database files for genome of interest**
+<br>perl script make_RTCpredictor_db.pl can be used to make the database files for any genome of interest. However, this script has some dependencies which needs to be installed/fulfilled prior to running it. Following are the dependencies of the script:
