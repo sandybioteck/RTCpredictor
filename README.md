@@ -61,5 +61,8 @@ This software requires 4 dependencies which needs to be installed/fulfilled prio
 <br>**(f) (Optional) dbSNP bed file for the genome of interest**. For hg38 genome, the file can be downloaded from https://ftp.ncbi.nih.gov/snp/organisms/human_9606_b151_GRCh38p7/BED/. The individual files for each chromosome need to be concatenated/joined together to make a single bed file followed by sorting the file by coordinates. This can be done by running following commands in the terminal
 <br>gunzip -c bed_chr_1.bed.gz bed_chr_2.bed.gz bed_chr_3.bed.gz bed_chr_4.bed.gz bed_chr_5.bed.gz bed_chr_6.bed.gz bed_chr_7.bed.gz bed_chr_8.bed.gz bed_chr_9.bed.gz bed_chr_10.bed.gz bed_chr_11.bed.gz bed_chr_12.bed.gz bed_chr_13.bed.gz bed_chr_14.bed.gz bed_chr_15.bed.gz bed_chr_16.bed.gz bed_chr_17.bed.gz bed_chr_18.bed.gz bed_chr_19.bed.gz bed_chr_20.bed.gz bed_chr_21.bed.gz bed_chr_22.bed.gz bed_chr_X.bed.gz bed_chr_Y.bed.gz > tmp_dbSNP.bed
 <br>sort -k1,1 -k2,2n tmp_dbSNP.bed > dbSNP.bed
-<br>**(g) (Optional) VCF file for the genome of interest**. For hg38 gnomee, the file can be downloaded from https://ftp.ncbi.nih.gov/snp/organisms/human_9606_b151_GRCh38p7/VCF/00-All.vcf.gz. Please unzip the file using following command on the terminal
+<br>**(g) (Optional) VCF file for the genome of interest**. For hg38 genome, the file can be downloaded from https://ftp.ncbi.nih.gov/snp/organisms/human_9606_b151_GRCh38p7/VCF/00-All.vcf.gz. Please unzip the file using following command on the terminal
 <br>gunzip 00-All.vcf.gz
+**Running the script :**
+<br>Running the following command will provide all the options to run the script:
+<br><br>perl make_RTCpredictor_db.pl -h
