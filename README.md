@@ -47,4 +47,12 @@ This software requires 4 dependencies which needs to be installed/fulfilled prio
 <br>**(xii)** Now click on 'Go'. A file named 'mart_export.txt' will be downloaded on your computer.
 <br>**(xiii)** Rename this file to 'genes_transcripts_exons.tsv'
 <br>**(d) paralog file named 'paralogs.tsv'**: Detailed steps for making this file for hg38 genome as an example, is given below. The same steps can be followed for any other genome of interest.
-<br>**(i)**
+<br>**(i)** Go to Ensembl website http://useast.ensembl.org/index.html
+<br>**(ii)** Click on BioMart on the top menu
+<br>**(iii)** Click on dropdown menu 'CHOOSE DATABASE'. Select 'Ensembl Genes 105'
+<br>**(iv)** Click on dropdown menu 'CHOOSE DATASET'. Select 'Human genes (GRCh38.p13)'
+<br>**(v)** On the left side menu, click on 'Attributes'. Among the options appearing on the top in bold, select 'Homologues (Max select 6 orthologues)'.
+<br>**(vi)** Now expand section 'GENE:' by clicking on '+' sign. Only 'Gene stable ID' checkbox should be selected and unselect all other checkboxes.
+<br>**(vii)** Now expand section 'PARALOGUES:' by clicking on '+' sign and select 'Mouse paralogue gene stable ID' checkbox.
+<br>**(viii)** On the top left side of the web page, click on 'Results'. In the resulting page, when asked for 'Export all results to', select 'File' and 'TSV' in the dropdown menu and select 'Unique results only' checkbox.
+<br>**(ix)** Now click on 'Go'. A file named 'mart_export.txt' will be downloaded on your computer. Rename this file to 'paralogs.tsv'
