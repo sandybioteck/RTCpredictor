@@ -2,7 +2,7 @@
 RTCpredictor is a software tool for the prediction of read-through chimeric RNAs from RNA-Seq data.
 
 **Citation:**
-Briefings in Bioinformatics, Volume 25, Issue 4, July 2024, bbae251, doi: 10.1093/bib/bbae251(https://doi.org/10.1093/bib/bbae251)
+Briefings in Bioinformatics, Volume 25, Issue 4, July 2024, bbae251, doi: [10.1093/bib/bbae251](https://doi.org/10.1093/bib/bbae251)
 
 **System Requirements:**
 Linux or Mac OS with at least 5GB RAM. Also works on Windows OS via Cygwin or WSL (Windows Subsystem for Linux).
